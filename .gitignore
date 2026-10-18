@@ -1,0 +1,39 @@
+# Private financial datasets
+DATA/
+data/
+*.xlsx
+*.xls
+*.xlsm
+
+# Original model outputs
+Outputs/
+Outputs.zip
+*_output.csv
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+# Allow only the synthetic demonstration dataset
+!sample_data/sample_companies.xlsx
+
+
+# Allow synthetic demonstration results
+!sample_outputs/sample_companies_output.csv
