@@ -66,3 +66,28 @@ The implementation requires further numerical testing and validation before use 
 This repository demonstrates the application of Python programming, numerical methods, and quantitative financial modelling to corporate credit risk analysis.
 
 The project is presented for academic and technical portfolio purposes.
+
+## Getting Started
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Generate Synthetic Data
+
+```bash
+python src/generate_sample_data.py
+```
+
+### Run the Multi-Company Model
+
+```bash
+python src/fyp_full.py
+```
+
+The model generates `sample_outputs/sample_companies_output.csv` using fictional financial data. The original research datasets are not distributed in this repository.
+
+**Note:** The single-company script retains its original research input configuration and is provided for code reference. The example workflow uses `fyp_full.py`.
+  
